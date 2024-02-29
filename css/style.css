@@ -856,7 +856,7 @@ h2 span {
     line-height: 34px;
     letter-spacing: 0%;
     text-align: center;
-    bottom: 40px;
+    top: 40px;
 }
 
 .list_footer1 {
@@ -898,4 +898,6 @@ h2 span {
     line-height: 36px;
     letter-spacing: 0%;
     text-align: center;
+    position: relative;
+    top: 60px;
 }
