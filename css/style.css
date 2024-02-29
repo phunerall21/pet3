@@ -842,7 +842,8 @@ h2 span {
 
 .footer {
     background: rgb(0, 0, 0);
-    padding: 150px 250px;
+    width: 1920px;
+    height: 760px;
 }
 
 .nav_footer {
