@@ -29,6 +29,7 @@
 }
 
 .site {
+    display:flex;
     height: 5572px;
     width: 1900px;
     /* Высота блока */
