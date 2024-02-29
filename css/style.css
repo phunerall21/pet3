@@ -1,0 +1,899 @@
+@font-face {
+    font-family: "Inter";
+    src:
+        local("Inter"),
+        url("../fonts/fonts/Inter-Bold.ttf") format("ttf");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src:
+        local("Inter"),
+        url("../fonts/fonts/Inter-Light.ttf") format("ttf");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src:
+        local("Inter"),
+        url("../fonts/fonts/Poppins-SemiBold.ttf") format("ttf");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+.site {
+    height: 5572px;
+    width: 1900px;
+    /* Высота блока */
+    overflow-y:hidden;
+    overflow-x:hidden;
+    /* Включаем вертикальную прокрутку */
+}
+
+.top_name {
+    font-style: oblique;
+    color: rgba(0, 0, 0, 0.67);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: absolute;
+    width: 206px;
+    height: 39px;
+    left: 78px;
+    right: 1156px;
+    top: 45px;
+    bottom: 5678px;
+}
+
+.menu_nav {
+    position: absolute;
+    width: 655px;
+    height: 34px;
+    left: 380px;
+    right: 299px;
+    top: 20px;
+    bottom: 548px;
+}
+
+.Men {
+    position: absolute;
+    width: 58px;
+    height: 34px;
+    left: 380px;
+    right: 217px;
+    top: 20px;
+    bottom: -20px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.Woman {
+    position: absolute;
+    width: 99px;
+    height: 34px;
+    left: 492px;
+    right: 64px;
+    top: 20px;
+    bottom: -20px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.Teen {
+    position: absolute;
+    width: 65px;
+    height: 34px;
+    left: 649px;
+    right: -59px;
+    top: 20px;
+    bottom: -20px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.Collection {
+    position: absolute;
+    width: 133px;
+    height: 34px;
+    left: 760px;
+    right: -238px;
+    top: 20px;
+    bottom: -20px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.Trends {
+    position: absolute;
+    width: 92px;
+    height: 34px;
+    left: 943px;
+    right: -380px;
+    top: 20px;
+    bottom: -20px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.rectangle1 {
+    position: absolute;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), inset 4px 4px 4px 0px rgb(187, 66, 66);
+    width: 121px;
+    height: 57px;
+    left: 1600px;
+    top: 34px;
+    bottom: -34px;
+    line-height: 190%;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 27px;
+    font-weight: 400;
+
+}
+
+.rectangle2 {
+    position: absolute;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), inset 4px 4px 4px 0px rgb(187, 66, 66);
+    width: 121px;
+    height: 57px;
+    left: 1750px;
+    top: 34px;
+    bottom: -34px;
+    line-height: 190%;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 27px;
+    font-weight: 400;
+
+}
+
+.bottom_first {
+    position: absolute;
+    width: 452px;
+    height: 216px;
+    left: 64px;
+    right: 818px;
+    top: 446px;
+    bottom: -34px;
+}
+
+.shop_with {
+
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-align: left;
+}
+
+.text_bottom1 {
+    font-family: Inter;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 92px;
+    letter-spacing: -7%;
+    text-align: left;
+    color: #fff;
+}
+
+.text_fashion {
+    color: #000;
+}
+
+.button_shop {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 250px;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 15px 70px;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    background-size: 201%;
+}
+
+.head_con2 {
+    position: absolute;
+    width: 458px;
+    height: 77px;
+    left: 700px;
+    right: 0px;
+    top: 29px;
+    bottom: -891px;
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 77px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.head_con2_comment {
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. */
+    position: absolute;
+    width: 627px;
+    height: 29px;
+    left: 624px;
+    right: 0px;
+    top: 113px;
+    bottom: -927px;
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.cloth_collection {
+    display: flex;
+    position: relative;
+    width: 150px;
+    height: 402px;
+    left: 400px;
+    top: 200px;
+    bottom: 4262px;
+    margin-right: 20px;
+}
+
+.sweater_name {
+    position: absolute;
+    left: 40px;
+    top: 320px;
+    color: rgba(255, 255, 255, 0.97);
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    padding: 10px 60px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.83);
+}
+
+.jeans_name {
+    position: absolute;
+    left: 390px;
+    top: 320px;
+    color: rgba(255, 255, 255, 0.97);
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    padding: 10px 60px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.83);
+}
+
+.baskets_name {
+    position: absolute;
+    left: 770px;
+    top: 320px;
+    color: rgba(255, 255, 255, 0.97);
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    padding: 10px 60px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.83);
+}
+
+h2 {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+h2 span {
+    color: #fff;
+    font-size: 30px;
+    line-height: 55px;
+    background: rgba(0, 0, 0, 0.7);
+    background: #000;
+    padding: 10px;
+}
+
+.image_woman {
+    position: absolute;
+    width: 624px;
+    height: 686px;
+    left: 100px;
+    right: 662px;
+    top: 710px;
+    bottom: -1372px;
+}
+
+.info_fashion {
+    position: absolute;
+    width: 437px;
+    height: 162px;
+    left: 893px;
+    right: 86px;
+    top: 720px;
+    bottom: -919px;
+
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.comment_fashion {
+    position: absolute;
+    width: 553px;
+    height: 186px;
+    left: 1063px;
+    right: -30px;
+    top: 940px;
+    bottom: -1156px;
+
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.border_middle {
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25), inset 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(47.17deg, rgb(220, 30, 6) 0.443%, rgb(33, 6, 4) 95.531%);
+
+    position: absolute;
+    width: 793px;
+    height: 280px;
+    left: 790px;
+    right: -531px;
+    top: 1242px;
+    bottom: -2242px;
+
+}
+
+.info_border1 {
+    color: rgba(255, 255, 255, 0.88);
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 77px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: absolute;
+    top: 70px;
+    left: 90px;
+}
+
+.info_border1_1 {
+    color: rgba(255, 255, 255, 0.88);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.border_line1 {
+    border: 1px solid rgb(0, 0, 0);
+    /* Line 2 */
+    position: absolute;
+    width: 143px;
+    height: 0;
+    left: 200px;
+    top: 135px;
+    transform: rotate(90.00deg);
+}
+
+.info_border2 {
+    color: rgba(255, 255, 255, 0.88);
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 77px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: absolute;
+    top: 70px;
+    left: 320px;
+
+}
+
+.info_border2_1 {
+    color: rgba(255, 255, 255, 0.88);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.border_line2 {
+    border: 1px solid rgb(0, 0, 0);
+    /* Line 2 */
+    position: absolute;
+    width: 143px;
+    height: 0;
+    left: 450px;
+    top: 135px;
+    transform: rotate(90.00deg);
+}
+
+.info_border3 {
+    color: rgba(255, 255, 255, 0.88);
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 77px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: absolute;
+    top: 70px;
+    left: 570px;
+}
+
+.info_border3_1 {
+    color: rgba(255, 255, 255, 0.88);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.bord_shop {
+    background: linear-gradient(180.00deg, rgb(212, 19, 5) 66.77%, rgb(47, 7, 5) 100%);
+    position: absolute;
+    width: 1493px;
+    height: 828px;
+    left: 200px;
+    right: -30px;
+    top: 2480px;
+    bottom: -2560px;
+}
+
+.left_body {
+    position: absolute;
+    width: 442.08px;
+    height: 601px;
+    left: 119px;
+    right: 831.92px;
+    top: 2634px;
+    bottom: -2407px;
+}
+
+.body_title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 77px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: absolute;
+    width: 423px;
+    height: 162px;
+    left: 20px;
+    right: -119.26px;
+    top: -2550px;
+}
+
+.body_text {
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac neque, velit tortor quam at donec etiam bibendum sagittis. Libero tempor, lacus amet, scelerisque neque mauris odio risus nec. Nisl, parturient at morbi morbi sit arcu. At integer maecenas tortor non lectus. */
+    position: absolute;
+    width: 423px;
+    height: 270px;
+    left: 20px;
+    right: -119.26px;
+    top: -2339px;
+    bottom: -2508px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.body_button {
+    /* SEE MORE */
+    position: absolute;
+    width: 309px;
+    height: 86px;
+    left: 5px;
+    right: -119px;
+    top: -2020px;
+    bottom: -3149px;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 74px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 15px 70px;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    background-size: 201%;
+    color: rgb(255, 255, 255);
+}
+
+.body_cloth {
+    position: relative;
+    left: 630px;
+    top: 60px;
+}
+
+.woman_sweater {
+    margin-right: 70px;
+}
+
+.title_our_product {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: relative;
+    text-align: center;
+    top: 3360px;
+}
+
+.list_our_product {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: relative;
+    top: 3400px;
+    left: 470px;
+}
+
+.our_product1 {
+    margin-right: 40px;
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.our_product2 {
+    margin-right: 40px;
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.our_product3 {
+    margin-right: 40px;
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.our_product4 {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.body4image {
+    position: relative;
+    top: 3500px;
+    left: 180px;
+}
+
+.image_product1 {
+    margin-right: 80px;
+}
+
+.image_product2 {
+    margin-right: 80px;
+}
+
+.image_product3 {
+    margin-right: 80px;
+}
+
+.image_product4 {
+    margin-right: 80px;
+}
+
+.body_time_promotion {
+    border-radius: 20px;
+    background: linear-gradient(180.00deg, rgb(176, 17, 6), rgb(69, 9, 6) 100%);
+    position: relative;
+    top: 3570px;
+    height: 900px;
+    width: 1800px;
+    left: 40px;
+}
+
+.title_promotion {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 84px;
+    font-weight: 400;
+    line-height: 77px;
+    letter-spacing: 0%;
+    text-align: left;
+    top: 100px;
+    left: 150px;
+}
+
+.text_promotion {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: relative;
+    left: 130px;
+    top: 270px;
+}
+
+.time {
+    position: relative;
+    top: 400px;
+    left: 200px;
+    display: flex;
+}
+
+.day {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 45px;
+    background: rgb(255, 255, 255);
+    padding: 20px 20px;
+}
+
+.day1 {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hour {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 45px;
+    background: rgb(255, 255, 255);
+    padding: 20px 20px;
+}
+
+.hour1 {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.minute {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    background: rgb(255, 255, 255);
+    padding: 20px 20px;
+}
+
+.minute1 {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.button_promotion {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
+    position: relative;
+    top: 500px;
+    left: 257px;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    padding: 20px 40px;
+}
+
+.rigth_image {
+    position: relative;
+    left: 1050px;
+    width: 622px;
+    height: 760px;
+    top: -185px;
+}
+
+.image_bottom1 {
+    width: 387px;
+    margin-right: -4px;
+    margin-left: -40px;
+}
+
+.image_bottom2 {
+    width: 387px;
+    margin-right: -4px;
+}
+
+.image_bottom3 {
+    width: 387px;
+    margin-right: -4px;
+}
+
+.image_bottom4 {
+    width: 387px;
+    margin-right: -4px;
+}
+
+.image_bottom5 {
+    width: 387px;
+    margin-right: -200px;
+}
+
+.footer {
+    background: rgb(0, 0, 0);
+    padding: 150px 250px;
+}
+
+.nav_footer {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
+    bottom: 70px;
+}
+
+.list_footer1 {
+    margin-right: 40px;
+}
+
+.list_footer2 {
+    margin-right: 40px;
+}
+
+.list_footer3 {
+    margin-right: 40px;
+}
+
+.list_footer4 {
+    margin-right: 40px;
+}
+
+.list_footer5 {
+    margin-right: 40px;
+}
+
+.by_phunerall {
+    position: relative;
+    text-align: center;
+    color: rgb(160, 7, 7);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+
+.created_by {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
